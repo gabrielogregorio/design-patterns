@@ -16,6 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
+      "@/observer/*": ["src/observer/*"],
       "@/factory/*": ["src/factory/*"],
       "@/iterator/*": ["src/iterator/*"],
       "@/services/*": ["src/strategy/services/*"],

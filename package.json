@@ -9,6 +9,7 @@
     "dev-strategy": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/strategy/index.ts",
     "dev-factory": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/factory/index.ts",
     "dev-iterator": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/iterator/index.ts",
+    "dev-observer": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/observer/index.ts",
     "jest": "jest --coverage",
     "jest:watchAll": "jest --watchAll",
     "jest:coverage": "jest --coverage",
