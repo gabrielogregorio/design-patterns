@@ -16,6 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
+       "@/iterator/*": ["src/iterator/*"],
       "@/services/*": ["src/strategy/services/*"],
       "@/external/*": ["src/strategy/services/external/*"]
     }
