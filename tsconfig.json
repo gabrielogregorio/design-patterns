@@ -16,7 +16,9 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-         }
+      "@/services/*": ["src/strategy/services/*"],
+      "@/external/*": ["src/strategy/services/external/*"]
+    }
   },
   "include": ["src/**/*"]
 }
